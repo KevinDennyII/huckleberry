@@ -9,14 +9,38 @@ body {
   padding: 0;
 }
 
+header {
+  border-bottom: 8px solid hsl(0deg, 0%, 60%);
+}
+
+h1 {
+  font-size: 2rem;
+  line-height: 1.2;
+  margin: 0px 0px 3rem;
+}
+
+p {
+  font-size: 1.25rem;
+  line-height: 1.5;
+  margin: 0 0 1rem;
+}
+
 /* Add styles here! */
-.max-width-wrapper > .intro-chunk > p {
-  width: 32%;
+.max-width-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.intro-chunk {
+  padding-top: 96px;
+  padding-bottom: 64px;
+  max-width: 415px;
 }
 
 main {
   padding-top: 10px;
-  background-color: hsl(0deg, 0%, 60%);
+  background-color: hsl(0deg, 0%, 40%);
 }
 
 main > section.max-width-wrapper {
@@ -24,13 +48,9 @@ main > section.max-width-wrapper {
 }
 
 .card {
-  margin-left: 20%;
-  width: 50%;
+  padding: 24px;
   background-color: white;
-}
-
-.intro-chunk {
-  padding: 10% 0 0 20%;
+  margin: 0 -24px;
 }
 
 .intro-chunk > p > strong {
