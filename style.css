@@ -10,3 +10,37 @@ body {
 }
 
 /* Add styles here! */
+.max-width-wrapper > .intro-chunk > p {
+  width: 32%;
+}
+
+main {
+  padding-top: 10px;
+  background-color: hsl(0deg, 0%, 60%);
+}
+
+main > section.max-width-wrapper {
+  background-color: hsl(0deg, 0%, 30%);
+}
+
+.card {
+  margin-left: 20%;
+  width: 50%;
+  background-color: white;
+}
+
+.intro-chunk {
+  padding: 10% 0 0 20%;
+}
+
+.intro-chunk > p > strong {
+  color: hsl(160deg, 100%, 30%);
+}
+
+.indented-heading {
+  margin: 0;
+}
+
+
+
+
