@@ -24,6 +24,9 @@ p {
   line-height: 1.5;
   margin: 0 0 1rem;
 }
+p:last-child {
+  margin-bottom: 0;
+}
 
 /* Add styles here! */
 .max-width-wrapper {
@@ -58,7 +61,13 @@ main > section.max-width-wrapper {
 }
 
 .indented-heading {
-  margin: 0;
+  font-size: 1.5rem;
+  line-height: 1.2;
+  padding: 16px 32px;
+  background-color: hsl(45deg, 100%, 50%);
+  border-bottom: 8px solid hsl(45deg, 100%, 40%);
+  width: fit-content;
+  margin: 0 0 0 -32px;
 }
 
 
